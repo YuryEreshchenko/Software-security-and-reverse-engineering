@@ -86,7 +86,7 @@ Level 3: Properly secured against common attacks
 
 ---
 
-## 🔍 How to Test Each Level
+## How to Test Each Level
 
 ### Level 1 — Broken Authentication
 - **Route:** `/login_insecure`
