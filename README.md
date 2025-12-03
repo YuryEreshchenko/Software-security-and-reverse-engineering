@@ -1,3 +1,8 @@
+## Authors
+
+By : 114012010 Yury Ereshchenko
+     114012009 Yoan Sapet
+
 # Web Security Demo — Three Implementation Levels
 
 A simple **Flask** web application that demonstrates three common web security cases:
