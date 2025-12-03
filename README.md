@@ -50,17 +50,10 @@ Each login form in the app corresponds to a different security level:
 # 1. Go to your project folder
 cd C:\path\to\project
 
-# 2. (Optional) Create and activate a virtual environment
-python -m venv venv
-.\venv\Scripts\Activate.ps1
-
-# 3. Install dependencies
+# 2. Install dependencies
 pip install Flask bcrypt
 
-# 4. (Optional) Set a secret key
-$env:FLASK_SECRET_KEY="replace_with_secure_random_value"
-
-# 5. Run the app
+# 3. Run the app
 python app.py
 ```
 
@@ -158,13 +151,3 @@ If you ever adapt this code to real usage, **always** apply these improvements:
 
 ---
 
-
-## License & Acknowledgements
-
-This project is for **educational purposes only** — do **not** use it for unauthorized testing or real systems.  
-Inspired by the OWASP Top 10 principles and classroom examples from typical Web Security assignments.
-
-**Author:**  
-**Course:** Web Security — Vulnerability Identification & Fixes  
-**Instructor:**  
-**Institution:** 
